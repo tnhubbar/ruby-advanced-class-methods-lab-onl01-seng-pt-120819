@@ -61,10 +61,10 @@ class Song
     artist_name = pieces[0]
     song_name = pieces[1].gsub(".mp3", "")
     
-    song = self.new
+    song = self.create 
     song.name = song_name
     song.artist_name = artist_name
-    save 
+    song 
   end 
   
 
