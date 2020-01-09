@@ -38,6 +38,10 @@ class Song
     else self.create_by_name
   end 
 
+
+  def self.alphabetical
+    @@all.sort 
+  end 
   end 
 
 end
