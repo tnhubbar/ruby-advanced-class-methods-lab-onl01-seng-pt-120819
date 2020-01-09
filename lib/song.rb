@@ -17,7 +17,7 @@ class Song
   end 
   
   def self.new_by_name 
-    song = song.new(name)
+    song = Song.new(name)
     song.name 
   end 
 
